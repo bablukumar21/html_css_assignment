@@ -1,0 +1,178 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+.logo{
+    position: relative;
+    left: 2.5vw;
+    height: 5vh;
+}
+.heading h1{
+    position: relative;
+    left: 2vw;
+    font-size: 4vw;
+}
+#para{
+    padding-left: 2vw;
+}
+.images{
+    display: flex;
+    gap: 0.1%;
+}
+.images img{
+    width: 80%;
+    padding: 3vw;
+}
+.images2{
+    display: flex;
+    width: 90%;
+    padding-left: 3vw;
+    background-color: #FBFBFB;
+}
+.images2 .text{
+    position: relative;
+    left: 3%;
+}
+.images2 .second{
+    position: relative;
+    left: 2%;
+}
+.onetwo{
+    padding-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    background-color: #F3F3F3;
+    /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .container {
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  form{
+    padding-left: 2vw;
+  }
+  .phone{
+    position: relative;
+    display: flex;
+    gap: 1%;
+  }
+
+.img1 img {
+    height: 60vh;
+    width: 90%;
+}
+#connect{
+    position: relative;
+    left: 3%;
+}
+.container button{
+    justify-content: center;
+    padding: 1vw;
+    background-color: grey;
+    border: none;
+    width: 15vw;
+    margin-top: 1vh;
+    color: white;
+}
+.container img{
+    position: relative;
+    left: -4vw;
+    top: 0.5vw;
+}
+.slide{
+    padding-left: 2vw;
+    display: flex;
+}
+#first{
+    width: 8vw;
+    padding-right: 2vw;
+}
+.slide img{
+    width: 4vw;
+    height: 8vh;
+    padding-left: 1.3vw;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    }
+
+h3 {
+    margin: 0;
+}
+button.footer-button {
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+img.List-o {
+    width: 13vw;
+    position: relative;
+    top: 2vw;
+}
+.list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.base{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+.logo img{
+    width: 5vw;
+    margin-top: 1vw;
+}
+.list-item {
+    display: flex;
+    gap: 3%;
+    width:100%;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5vw;
+}
+p.home {
+    margin-right: 20%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.text p {
+    width: 25%;
+    height: 30px;
+    margin-left: 5%;
+}
+
+.images img {
+    margin-left: 40%;
+}
+
+.images2 .first img {
+    margin-left: 30%;
+}
+
+
